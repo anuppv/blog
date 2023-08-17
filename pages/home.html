@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="post.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-success">
+            <div class="nav-content container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h3>FoodE</h3>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="main-menu collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      </header>
+
+      <section class="bg-img" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 home-text">
+                <h2 class="home-title">FoodE</h2>
+                <p class="home-desc">Destination to share good Food Experience</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h1 class="text-center p-2">About FoodE</h1> 
+        <p class="text-center">We attempt to find Varieties of food from different Destination across the World. We collect the data about the good food from our own experience and experiences of other foodies all over the world. Do read our blogs for the real mouth watering food experiences.</p>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/item1.png" alt="Food">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza Slice</h5>
+                        <p class="card-text">The ideal way of eating a pizza is to fold the slice in half - fold it in half, lift it and bite into it. </p>
+                        <a href="#" class="btn btn-success">Explore</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/item2.png" alt="Food">
+                    <div class="card-body">
+                        <h5 class="card-title">Chocolate Milk Shake</h5>
+                        <p class="card-text">Made with milk, chocolate syrup, and ice cream, this milkshake is the perfect blend of sweetness. </p>
+                        <a href="#" class="btn btn-success">Explore</a>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/item3.png" alt="Food">
+                    <div class="card-body">
+                        <h5 class="card-title">Pudding Cake</h5>
+                        <p class="card-text">The nutty crust with a layer of cream cheese, cool whip, vanilla and chocolate pudding is a total joy. </p>
+                        <a href="#" class="btn btn-success">Explore</a>
+                    </div>
+                </div>   
+            </div>
+
+        </div>
+    </section>
+
+    <!-- <section class="blog pt-0" id="blog">
+        <div class="container">
+            <h1 class="mx-4 my-0 text-center p-3">Food Blog</h1>
+            <h5 class="mx-4 my-0 text-center p-3">Varieties of food from different Destination</h5>
+            <ul class="row d-lg-flex list-unstyled image-block justify-content-center px-lg-0 mx-lg-0">
+              <li class="col-lg-4 col-md-4 image-block full-width p-3">
+                <div class="image-block-inner">
+                  <a class="mh-100" href="#">
+                  <img src="images/item1.png" alt="pizza" class="img-responsive w-100"></a>
+                  <span class="hp-posts-cat">Pizza Slice</span>
+                  <h4 class="mt-3"><a href="#">The ideal way of eating a pizza is to fold the slice in half - fold it in half, lift it and bite into it.</a></h4>
+    
+                  <a href="#" class="read-more">Read more &gt;</a>
+                </div>
+              </li>
+              <li class="col-lg-4 col-md-4 image-block full-width p-3">
+                <div class="image-block-inner">
+                  <a class="mh-100" href="#">
+                  <img src="images/item2.png" alt="milkshake" class="img-responsive w-100"></a>
+                  <span class="hp-posts-cat">Chocolate Milk Shake</span>
+                  <h4 class="mt-3"><a href="#">Made with milk, chocolate syrup, and ice cream, this milkshake is the perfect blend of sweetness.</a></h4>
+                        
+                    <a href="#" class="read-more">Read more &gt;</a>
+                </div>
+              </li>
+              <li class="col-lg-4 col-md-4 image-block full-width p-3">
+                <div class="image-block-inner">
+                  <a class="mh-100" href="#">
+                  <img src="images/item3.png" alt="Pudding Cake" class="img-responsive w-100"></a>
+                  <span class="hp-posts-cat">Pudding Cake</span>
+                  <h4 class="mt-3"><a href="#">The nutty crust with a layer of cream cheese, cool whip, vanilla and chocolate pudding is a total joy.</a></h4>
+                
+                  <a href="#" class="read-more">Read more &gt;</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+      </section> -->
+
+      <section class="blog" id="blog">
+        <div class="container my-5">
+            <h1 class="mx-4 my-0 text-center p-5">Food Blog</h1>
+            <div class="row d-flex justify-content-center">
+                <div class="col-12">
+                  <div id="carousel" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                          <li data-target="#carousel" data-slide-to="0" class="active bg-secondary"></li>
+                          <li data-target="#carousel" data-slide-to="1" class="bg-secondary"></li>
+                          <li data-target="#carousel" data-slide-to="2" class="bg-secondary"></li>
+                        </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div class="row">
+                              <div class="col-12 col-md-6 col-xl-3 mb-4">
+                                  <div class="card mr-3">
+                                      <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/08-2023-pan-con-tomate%2Fpan-con-tomate-626" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Spanish Tomato Bread</h5>
+                                        <p class="card-text">This super simple Spanish tapa proves that you don't need a lot of ingredients to create delicious complex flavor...</p>
+                                        <a href="https://www.thekitchn.com/pan-con-tomate-recipe-23567056" class="btn btn-primary">Read more</a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-12 col-md-6 col-xl-3 mb-4">
+                                  <div class="card mr-3">
+                                      <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2F2023-07-cashew-butter%2Fcashew-butter-041" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Cashew Butter</h5>
+                                        <p class="card-text">This easy dish has a few surprise ingredients that make the homemade version taste so much better...</p>
+                                        <a href="https://www.thekitchn.com/cashew-butter-recipe-23566921" class="btn btn-primary">Read more</a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-12 col-md-6 col-xl-3 mb-4">
+                                  <div class="card mr-3">
+                                      <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2F2023-07-cincinnati-chili%2Fcincinnati-chili-104" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Cincinnati Chili</h5>
+                                        <p class="card-text">This Midwestern specialty has beans and is typically served over a bed of spaghetti...</p>
+                                        <a href="https://www.thekitchn.com/cincinnati-chili-recipe-23565738" class="btn btn-primary">Read more</a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-12 col-md-6 col-xl-3 mb-4">
+                                  <div class="card mr-3">
+                                      <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2F2023-07-vegan-green-bean-casserole%2Fvegan-green-bean-casserole-661-alt" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Vegan Green Bean Casserole</h5>
+                                        <p class="card-text">The fall time casserole gets dairy-free makeover, and a grown-up upgrade with homemade crispy shallots...</p>
+                                        <a href="https://www.thekitchn.com/vegan-green-bean-casserole-recipe-23409112" class="btn btn-primary">Read more</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="row">
+                              <div class="col-12 col-md-6 col-xl-3 mb-4">
+                                  <div class="card mr-3">
+                                      <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2FPhoto%2FRecipes%2F2020-08-easy-apple-cobbler%2F2020_applecobbler_shot01v4_454" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Apple Cobbler Cinnamon-Scented Drop Biscuits</h5>
+                                        <p class="card-text">An easy apple dessert that looks like you worked harder than you did...</p>
+                                        <a href="https://www.thekitchn.com/apple-cobbler-recipe-23059362" class="btn btn-primary">Read more</a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-12 col-md-6 col-xl-3 mb-4">
+                                  <div class="card mr-3">
+                                      <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2FPhoto%2FRecipes%2F2023-08-applesauce-muffins%2Fapplesauce-muffins-060" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Applesauce Muffins</h5>
+                                        <p class="card-text">These muffins are naturally sweetened and have the most incredible soft, tender texture...</p>
+                                        <a href="https://www.thekitchn.com/applesauce-muffins-recipe-23566932" class="btn btn-primary">Read more</a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-12 col-md-6 col-xl-3 mb-4">
+                                  <div class="card mr-3">
+                                      <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2Frecipes%2F2023%2F2023-08-one-pot-corn-pasta%2Fone-pot-corn-pasta-1" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">One-Pot Corn Pasta</h5>
+                                        <p class="card-text">This quick and easy pasta dinner is packed with vegetables and tossed with a light & creamy no-cook sauce...</p>
+                                        <a href="https://www.thekitchn.com/one-pot-corn-pasta-recipe-23567076" class="btn btn-primary">Read more</a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-12 col-md-6 col-xl-3 mb-4">
+                                  <div class="card mr-3">
+                                      <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2F2023-07-blueberry-cinnamon-rolls%2Fblueberry-cinnamon-rolls-421" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Blueberry Cinnamon Rolls</h5>
+                                        <p class="card-text">Warm brown sugar filling with a layer of blueberry sauce, and a drizzle of blueberry cream cheese glaze...</p>
+                                        <a href="https://www.thekitchn.com/blueberry-cinnamon-rolls-recipe-23566401" class="btn btn-primary">Read more</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="row">
+                              <div class="col-12 col-md-6 col-xl-3 mb-4">
+                                  <div class="card mr-3">
+                                      <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2Frecipes%2F2023%2F2023-08-burst-cherry-tomato-pasta%2Fburst-cherry-tomato-pasta-1" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Cherry Tomato Pasta</h5>
+                                        <p class="card-text">Cherry tomatoes in a hot skillet create a bright, fresh sauce that's rounded out with garlic and basil...</p>
+                                        <a href="https://www.thekitchn.com/cherry-tomato-pasta-recipe-23565632" class="btn btn-primary">Read more</a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-12 col-md-6 col-xl-3 mb-4">
+                                  <div class="card mr-3">
+                                      <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2F2023-07-fried-okra%2Ffried-okra-505" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Fried Okra</h5>
+                                        <p class="card-text">This recipe for crispy, beer-battered fried okra features two equally delicious ways to prepare the pods...</p>
+                                        <a href="https://www.thekitchn.com/fried-okra-recipe-23565342" class="btn btn-primary">Read more</a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-12 col-md-6 col-xl-3 mb-4">
+                                  <div class="card mr-3">
+                                      <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2Frecipes%2F2023%2F2023-08-tomato-peach-salad%2Ftomato-peach-salad-edit-1" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Tomato-Peach Salad with Feta and Cucumber</h5>
+                                        <p class="card-text">This juicy peach and tomato wedges, sliced cucumber, crumbed feta, and fresh herbs...</p>
+                                        <a href="#https://www.thekitchn.com/tomato-peach-salad-with-feta-and-cucumber-recipe-23565657" class="btn btn-primary">Read more</a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-12 col-md-6 col-xl-3 mb-4">
+                                  <div class="card mr-3">
+                                      <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2Frecipes%2F2023%2F2023-07-creamy-chicken-orzo-skillet%2Fcreamy-chicken-orzo-skillet-3" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">One-Pan Creamy Orzo Chicken and Zucchini</h5>
+                                        <p class="card-text">A one-pan orzo and chicken dinner that’s creamy, yet light and packs in a full pound of zucchini...</p>
+                                        <a href="https://www.thekitchn.com/creamy-orzo-chicken-skillet-recipe-23554753" class="btn btn-primary">Read more</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </section>
+
+      <section class="contact" id="contact">
+        <footer class="text-center bg-dark text-muted">
+            <section class="d-flex justify-content-center justify-content-lg-between p-4">
+        
+            </section>
+  
+    <section class="social">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h3 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-secondary"></i>FoodE
+            </h3>
+            <p>
+              A blog page designed particularly to share different Varieties of Food in the World
+            </p>
+          </div>
+          
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <a href="" class="me-4 link-secondary">
+                <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> Kaloor, Kochi - 25</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              aakranth@foode.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> + 91 9876 543 21</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  
+    <div class="text-center p-4 border-top" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023
+      <a class="text-reset fw-bold" href="https://foode.com/">FoodE</a>
+    </div>
+  </footer>
+
+
+      </section>
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+</body>
+</html>
